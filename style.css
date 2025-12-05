@@ -1,0 +1,44 @@
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #111;
+            color: #fff;
+            display: flex;
+        }
+        .sidebar {
+            width: 220px;
+            background: #000;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 20px;
+            box-shadow: 2px 0 10px rgba(0,0,0,0.5);
+        }
+        .sidebar h2 { text-align: center; color: #d62828; margin-bottom: 20px; }
+        .sidebar a {
+            display: block; padding: 15px 20px; color: #fff;
+            text-decoration: none; font-size: 18px; border-bottom: 1px solid #222;
+        }
+        .sidebar a:hover { background: #d62828; }
+        .content { margin-left: 220px; padding: 20px; width: calc(100% - 220px); }
+        header {
+            padding: 20px; background: #d62828; text-align: center;
+            font-size: 26px; font-weight: bold; border-radius: 10px;
+        }
+        .section { padding: 40px 20px; text-align: center; }
+        .btn {
+            display: inline-block; padding: 12px 24px;
+            background: #f77f00; color: #fff; font-weight: bold;
+            text-decoration: none; border-radius: 6px; margin-top: 10px;
+        }
+        footer {
+            background: #000; text-align: center; padding: 20px;
+            margin-top: 20px; border-radius: 10px;
+        }
+        .hero {
+            width: 90%; border-radius: 15px; margin-top: 20px;
+        }
+    </style>
+    

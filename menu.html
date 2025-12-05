@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мәзір — StreetFood</title>
+
+    <style>
+        body { font-family: Arial; margin: 0; background: #111; color: #fff; display: flex; }
+        .sidebar { width: 220px; background: #000; height: 100vh; position: fixed; padding-top: 20px; }
+        .sidebar h2 { text-align: center; color: #d62828; }
+        .sidebar a { display: block; padding: 15px 20px; color: #fff; text-decoration: none; border-bottom: 1px solid #222; }
+        .sidebar a:hover { background: #d62828; transition: 0.3s; }
+
+        .content { margin-left: 220px; padding: 20px; width: calc(100% - 220px); }
+        header { padding: 20px; background: #d62828; text-align: center; font-size: 26px; border-radius: 10px; }
+
+        .section { padding: 40px 20px; text-align: center; }
+
+        .menu-item {
+            background: #222; padding: 20px; margin: 20px auto; width: 90%;
+            border-radius: 10px; text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        /* АНИМАЦИЯ */
+        .menu-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #d62828;
+        }
+
+        .menu-img {
+            width: 80%; max-width: 350px; border-radius: 10px; margin-bottom: 10px;
+        }
+
+        .sublist {
+            text-align: left;
+            margin-top: 10px;
+            background: #333;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .sublist li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>StreetFood</h2>
+    <a href="index3.html">Басты бет</a>
+    <a href="menu.html">Мәзір</a>
+    <a href="about.html">Біз туралы</a>
+    <a href="contact.html">Байланыс</a>
+</div>
+
+<div class="content">
+    <header>Мәзір</header>
+
+    <section class="section">
+
+        <!-- DONER -->
+        <div class="menu-item">
+            <img src="https://eda.yandex/images/3518584/c876e08533869a4863f057acc052faf0-1100x825.jpg" class="menu-img">
+            <h3>Донер — 2000 ₸</h3>
+            <p>Жаңа еттен дайындалған.</p>
+
+            <h1>
+                🔥 Тауық донер — 2000 ₸
+                🥩 Сиыр ет донері — 2500 ₸
+                🌯 Асық абай донер (үлкейтілген) — 3000 ₸
+            </h1>
+        </div>
+
+        <!-- BURGER -->
+        <div class="menu-item">
+            <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1FAwWA.img?w=1200&h=800&m=4&q=89" class="menu-img">
+            <h3>Бургер — 1350 ₸</h3>
+            <p>Үй котлетімен, балғын көкөністер.</p>
+            <h1> 
+                🍔 Классикалық бургер — 1350 ₸
+                🧀 Чизбургер — 1500 ₸
+                🌶 Ащы бургер — 1600 ₸
+                🥩 Дабл бургер — 2200 ₸
+            </h1>
+        </div>
+
+        <!-- COFFEE -->
+        <div class="menu-item">
+            <img src="https://img.freepik.com/premium-photo/cup-coffee-with-cup-coffee-saucer_1336671-14.jpg" class="menu-img">
+            <h3>Кофе — 1150 ₸</h3>
+            <p>Жаңа тартылған дәндерден.</p>
+
+            <h1>
+                ☕ Американо — 1100 ₸
+                🥛 Латте — 1300 ₸
+                Кофе сироптары: ваниль, карамель, лесной орех
+            </h1> 
+        </div>
+
+        <!-- DESSERT -->
+        <div class="menu-item">
+            <img src="https://avatars.mds.yandex.net/get-eda/3525661/25e4ca2725c8413f11fb2504d623c536/orig" class="menu-img">
+            <h3>Десерт — 2500 ₸</h3>
+            <p>Үйде жасалған тәттілер.</p>
+
+            <h1>
+                🍰 Чизкейк — 2500 ₸
+                🍫 Брауни (бруслетики) — 1900 ₸
+                🧁 Капкейк — 1500 ₸
+            </h1>
+        </div>
+
+    </section>
+</div>
+
+</body>
+</html>
